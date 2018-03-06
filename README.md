@@ -1,3 +1,7 @@
+# MPI Tutorial
+
+http://mpitutorial.com/tutorials/mpi-introduction/
+
 # Parallel-Computing-MPI-Basics
 
 # Objectives:
