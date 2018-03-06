@@ -33,7 +33,7 @@ Perform the same operations as in the previous task, however, using immediate se
 
 Since semantically we performance the same operations, the results should be the same as in the previous task. Note that for process 0, one needs to send before receive. For other processes, one needs to receive before send.
 
-# Name the program as isend-irecv.
+*Name the program as isend-irecv*.
 
 # 3. Reduce Operations (20%)
 The above tasks can be easily performed using the reduce operation. Perform the tasks using MPI_Reduce(). Each process should call the MPI_Reduce() function twice, one with its rank and the other with the negative value of its rank. Process 0 should be the root process to receive the final reduced results and print them. Reduce functions are blocking functions. You can be sure the ordering of the results are fixed from each run. 
